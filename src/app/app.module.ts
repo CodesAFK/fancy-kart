@@ -18,7 +18,6 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
 import { LoginComponent } from './login/login.component';
 import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
-import { LogoutComponent } from './logout/logout.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -45,7 +44,6 @@ const appRoutes: Routes = [
     AdminOrdersComponent,
     LoginComponent,
     AdminProductsComponent,
-    LogoutComponent
   ],
   imports: [
     BrowserModule,
